@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Domine:wght@600&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'architects daughter', cursive;
+  padding: 1rem;
+  background-color: rgb(245, 231, 225);
+  height: 100vh;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+h1, h3, nav {
+  font-family: 'Domine', serif;
+  color: rgb(121, 41, 41);
+}
+
+/* menu */
+header a {
+  width: 5rem;
+  text-align: center;
+  padding: .25rem;
+  color: rgb(121, 41, 41);
+  border: 1px solid black;
+  border-width: 0 1px 0 0;
+}
+
+header a:last-child {
+  border-right: none;
+}
+
+/* airplane list */
+main > * {
+  margin: 1rem;
+}
+
+.airplane-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.airplane-card, .results-graph {
+  background-color: rgb(240, 239, 239);
+  border-radius: .5em;
+  box-shadow: 1px 2px 2px gray;
+}
+
+.airplane-card {
+  padding: 1rem;
+  width: 15rem;
+  margin: 1rem 1rem 1rem 0; /* No left margin */
+}
+
+.airplane-card img {
+  max-width: calc(100% - .1rem);
+  display: block;
+  margin-bottom: .5rem;
+}
+
+/* media queries */
+
+/* YOUR CODE HERE */
