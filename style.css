@@ -69,5 +69,20 @@ main > * {
 }
 
 /* media queries */
+@media only screen and (max-width:768px){
+  .airplane-list-container{
+    display:flex;
+    flex-direction: column;
+    margin-left:25%;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-start;
+ flex-wrap: wrap;
+  }
+}
 
 /* YOUR CODE HERE */
